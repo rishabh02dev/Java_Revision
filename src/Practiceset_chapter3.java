@@ -23,6 +23,17 @@ public class Practiceset_chapter3 {
         letter =  letter.replace("<|name|>", "Harry");
         System.out.println(letter);
 
+        //Problem 4
+
+        String myString = "This string contains      double     and triple spaces";
+        System.out.println(myString.indexOf(" "));
+        System.out.println(myString.indexOf("     "));
+
+        //Problem 5
+
+        String Letter2 = "Dear Harry, \nThis Java Course is Nice. \n\t Thanks!";
+        System.out.println(Letter2);
+
 
 
     }
