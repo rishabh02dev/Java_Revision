@@ -1,5 +1,7 @@
 package src;
 
+import java.util.Scanner;
+
 public class For_loops {
     public static void main(String[] args) {
 //        for(int i = 0; i<=10; i++){
@@ -16,8 +18,17 @@ public class For_loops {
 
         //Decrementing for loops in java
 
-        for (int i =5; i>0; i--){
+//        for (int i =5; i>0; i--){
+//            System.out.println(i);
+//        }
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the value of limit (n) :");
+        int n = sc.nextInt();
+        System.out.println("First " +n+ " natural numbers in reverse order ");
+        for (int i=n;i>0;i--){
             System.out.println(i);
         }
+
     }
 }
