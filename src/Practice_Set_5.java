@@ -58,6 +58,17 @@ public class Practice_Set_5 {
 //            sum = sum+8*i;
 //      }
 
+        //Practice Problem 11
+
+        int sum =0;
+        int i =0;
+        int n = 4;
+        while(i<n){
+            sum = sum+ 2*i;
+            i++;
+        }
+        System.out.println(sum);
+
 
 
 
